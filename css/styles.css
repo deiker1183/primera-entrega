@@ -1,0 +1,154 @@
+
+
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Home*/
+/*estilos mq  mobile*/
+
+/*estilos generales*/
+
+body{
+    background-color: #d3d3d3;
+}
+
+
+/*estilos header*/
+header{
+  margin: 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+   
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 3px;
+
+} 
+
+
+header img{
+    width: 30%;
+    padding: 20px;
+    display: flex;
+}
+
+
+
+/*estilos main*/
+
+
+main div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+     
+  }
+
+
+/*estilos footer*/
+
+  footer{ 
+    margin: 0 10%;
+    text-align: center;
+    color: whitesmoke;
+    
+}
+
+h1 {
+    color: rgb(80, 90, 69);
+     background-color: rgba(122, 36, 53, 0.226); 
+     text-align: center;line-height: 20px;
+     
+ }
+
+ 
+ 
+ /*PRODUCTOS */
+ /* mq desktop*/
+
+ @media screen and (min-width: 1280px) {
+    header img{
+       width: 15px;
+    }
+ 
+ .gris{
+    background-color: rgb(225, 230, 216); color: rgb(172, 88, 105);
+ }
+
+.negro{color: black;}
+
+main {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:40% 40% 15% ;
+}
+
+
+main img{
+    width: 5%;
+    padding: 100px;
+    display: flex;
+    
+ }
+
+ /*estructura de grillas*/
+
+ .contenedor{
+    margin: 0px 10px;
+    padding: 10px;
+    gap: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+ }
+
+/* SERVICIO TECNICO*/
+ .rojo {color: rgb(73, 73, 119); background-color: #bfabaf}
+ .negro{color: black;}
+
+ .beige {
+    background-color: beige; color: blueviolet; text-decoration: double;
+ }
+
+  img{
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    
+ }
+
+ /*ACCESORIOS */
+.naranja {
+    color: rgb(43, 40, 43); background-color: rgb(218, 188, 134);
+}
+
+body {
+    background-color: lightgray;
+}
+
+nav img{
+    width: 30%;
+    padding: 30px;
+    display: flex;
+    
+ }
+
+ /*SUCURSALES*/
+
+header nav img{
+    width: 90%;
+    padding: 40px;
+    display: flex;
+    
+ }
+
+ 
+ 
+  
