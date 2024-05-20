@@ -72,13 +72,10 @@ h1 {
  
  
  /*PRODUCTOS */
- /* mq desktop*/
+ /* mq laptp*/
 
- @media screen and (min-width: 1280px) {
-    header img{
-       width: 15px;
-    }
  
+
  .gris{
     background-color: rgb(225, 230, 216); color: rgb(172, 88, 105);
  }
