@@ -1,1 +1,10 @@
-no-subir/
+#Ignora archivos del sistema 
+
+# Ignora lacarpeta img_cache
+img_cache
+
+#Ignora todos los archivos de texto
+*.tex
+
+#Ignora el archivo background.jpg
+background.jpg
